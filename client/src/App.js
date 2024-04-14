@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Container>
-        <Header />
+        <Header socket= {socket}/>
         <Box>
           <Outlet context={{ socket }} />
         </Box>
