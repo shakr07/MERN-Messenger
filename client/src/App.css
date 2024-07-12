@@ -1,0 +1,56 @@
+html {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #3F49CC;
+  color: #fff;
+}
+
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-outline {
+  color: #99D9EA;
+  border: 1px solid #99D9EA;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #99D9EA;
+  color: #00186F;
+}
+
+.btn-primary {
+  background: #99D9EA;
+  color: #00186F;
+}
+
+.btn-primary:hover {
+  background: #88C8DA;
+}
+
+.btn-secondary {
+  background: #00186F;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #001060;
+}
